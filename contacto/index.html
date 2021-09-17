@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Contacto</title>
+</head>
+<body>
+    <div class="contact" id="contact">
+        <h2 onClick="toggleClass()">Contactenos <span>+</span></h2>
+        <form >
+            <div class="row">
+                <div class="col-2">
+                    <label>Nombre completo</label>
+                    <input type="text" name="" class="text" placeholder="Nombre">
+                </div>
+
+                
+                <div class="col-2">
+                    <label>Npellidos</label>
+                    <input type="text" name="" class="text" placeholder="Apellidos">
+                </div>
+
+                
+                <div class="col-2">
+                    <label>Email</label>
+                    <input type="text" name="" class="text" placeholder="Email">
+                </div>
+
+                
+                <div class="col-2">
+                    <label>Telefono Celular</label>
+                    <input type="text" name="" class="text" placeholder="Celular">
+                </div>
+
+                
+                <div class="col-2">
+                    <label>escriba su mensaje</label>
+                    <textarea placeholder="mensaje"></textarea>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-1">
+                    <input type="submit" name="" value="ENVIAR">
+                </div>
+            </div>
+            
+        </form>
+  
+  
+    </div>
+
+    <script type="text/javascript">
+        function toggleClass(){
+            var element=document.getElementById('contact');
+            element.classList.toggle("active")
+        }
+
+    </script>
+    
+</body>
+</html>
